@@ -1,0 +1,2 @@
+msgid "Image Download"
+msgstr "画像のダウンロード"
