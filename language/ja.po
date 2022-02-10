@@ -1,2 +1,5 @@
 msgid "Image Download"
 msgstr "画像のダウンロード"
+
+msgid "Please set configs of a downloader."
+msgstr "ダウンローダの情報を設定してください。"

@@ -21,7 +21,7 @@ the module to `IiifDownload`.
 TODO / Bugs
 -----------
 
-- [ ] Configure a download site url.
+- [x] Configure a download site url.
 
 Warning
 -------

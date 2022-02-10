@@ -66,9 +66,14 @@ class IiifDownload extends AbstractHelper {
 
         $urlManifest = $view->iiifUrl($resource);
 
+        $iiifdownload_url = $view->setting("iiifdownload_url");
+        $iiifdownload_description = $view->setting("iiifdownload_description");
+
         return $view->partial('common/iiif-download',
             [
-                'manifest' =>  $urlManifest
+                'manifest' =>  $urlManifest,
+                "url" =>  $iiifdownload_url ,
+                "description" =>  $iiifdownload_description,
             ]
         );
     }
